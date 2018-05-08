@@ -3,3 +3,6 @@ A project that analyzes a database with tweets to determine which are talking ab
 
 Shape Files: 
 https://www.census.gov/geo/maps-data/data/cbf/cbf_nation.html
+
+Coastal County Fips: 
+https://www.census.gov/geo/landview/lv6help/coastal_cty.pdf
