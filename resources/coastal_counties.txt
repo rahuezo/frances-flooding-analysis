@@ -1,0 +1,449 @@
+STATE FIPS FIPSNAME
+AL 01003 Baldwin, AL
+AL 01025 Clarke, AL
+AL 01039 Covington, AL
+AL 01053 Escambia, AL
+AL 01061 Geneva, AL
+AL 01097 Mobile, AL
+AL 01099 Monroe, AL 
+AL 01129 Washington, AL
+CT 09001 Fairfield, CT
+CT 09003 Hartford, CT
+CT 09005 Litchfield, CT
+CT 09007 Middlesex, CT
+CT 09009 New Haven, CT
+CT 09011 New London, CT
+CT 09013 Tolland, CT
+CT 09015 Windham, CT
+DC 11001 District of Columbia
+DE 10001 Kent, DE
+DE 10003 New Castle, DE
+DE 10005 Sussex, DE
+FL 12005 Bay, FL
+FL 12013 Calhoun, FL
+FL 12015 Charlotte, FL
+FL 12017 Citrus, FL
+FL 12021 Collier, FL
+FL 12027 De Soto, FL 
+FL 12029 Dixie, FL
+FL 12033 Escambia, FL
+FL 12037 Franklin, FL
+FL 12039 Gadsden, FL
+FL 12041 Gilchrist, FL
+FL 12043 Glades, FL
+FL 12045 Gulf, FL
+FL 12049 Hardee, FL
+FL 12053 Hernando, FL
+FL 12057 Hillsborough, FL
+FL 12059 Holmes, FL
+FL 12063 Jackson, FL
+FL 12065 Jefferson, FL
+FL 12067 Lafayette, FL
+FL 12071 Lee, FL
+FL 12073 Leon, FL
+FL 12075 Levy, FL
+FL 12077 Liberty, FL
+FL 12079 Madison, FL
+FL 12081 Manatee, FL
+FL 12083 Marion, FL
+FL 12087 Monroe, FL
+FL 12091 Okaloosa, FL
+FL 12101 Pasco, FL
+FL 12103 Pinellas, FL
+FL 12105 Polk, FL
+FL 12113 Santa Rosa, FL
+FL 12115 Sarasota, FL
+FL 12119 Sumter, FL
+FL 12121 Suwannee, FL
+FL 12123 Taylor, FL
+FL 12129 Wakulla, FL
+FL 12131 Walton, FL
+FL 12133 Washington, FL
+FL (EC) 12003 Baker, FL
+FL (EC) 12009 Brevard, FL
+FL (EC) 12011 Broward, FL
+FL (EC) 12019 Clay, FL
+FL (EC) 12086 Miami-Dade, FL
+FL (EC) 12031 Duval, FL
+FL (EC) 12035 Flagler, FL
+FL (EC) 12051 Hendry, FL
+FL (EC) 12061 Indian River, FL
+FL (EC) 12069 Lake, FL
+FL (EC) 12085 Martin, FL
+FL (EC) 12089 Nassau, FL
+FL (EC) 12093 Okeechobee, FL
+FL (EC) 12095 Orange, FL 
+FL (EC) 12097 Osceola, FL
+FL (EC) 12099 Palm Beach, FL
+FL (EC) 12107 Putnam, FL
+FL (EC) 12109 St. Johns, FL
+FL (EC) 12111 St. Lucie, FL
+FL (EC) 12117 Seminole, FL
+FL (EC) 12127 Volusia, FL
+GA 13001 Appling, GA
+GA 13003 Atkinson, GA
+GA 13005 Bacon, GA
+GA 13025 Brantley, GA
+GA 13029 Bryan, GA
+GA 13031 Bulloch, GA
+GA 13039 Camden, GA
+GA 13049 Charlton, GA
+GA 13051 Chatham, GA
+GA 13069 Coffee, GA
+GA 13103 Effingham, GA
+GA 13127 Glynn, GA
+GA 13155 Irwin, GA
+GA 13161 Jeff Davis, GA
+GA 13165 Jenkins, GA
+GA 13179 Liberty, GA
+GA 13183 Long, GA
+GA 13191 McIntosh, GA
+GA 13209 Montgomery, GA
+GA 13229 Pierce, GA
+GA 13251 Screven, GA
+GA 13267 Tattnall, GA
+GA 13279 Toombs, GA
+GA 13299 Ware, GA
+GA 13305 Wayne, GA
+GA (GOM) 13087 Decatur, GA
+GA (GOM) 13131 Grady, GA
+GA (GOM) 13275 Thomas, GA
+LA 22001 Acadia, LA
+LA 22005 Ascension, LA
+LA 22007 Assumption, LA
+LA 22009 Avoyelles, LA
+LA 22011 Beauregard, LA
+LA 22019 Calcasieu, LA
+LA 22023 Cameron, LA
+LA 22033 East Baton Rouge, LA
+LA 22037 East Feliciana, LA
+LA 22039 Evangeline, LA
+LA 22045 Iberia, LA
+LA 22047 Iberville, LA
+LA 22051 Jefferson, LA
+LA 22053 Jefferson Davis, LA
+LA 22055 Lafayette, LA
+LA 22057 Lafourche, LA
+LA 22063 Livingston, LA
+LA 22071 Orleans, LA
+LA 22075 Plaquemines, LA
+LA 22077 Pointe Coupee, LA
+LA 22079 Rapides, LA
+LA 22085 Sabine, LA
+LA 22087 St. Bernard, LA
+LA 22089 St. Charles, LA
+LA 22091 St. Helena, LA
+LA 22093 St. James, LA
+LA 22095 St. John the Baptist, LA
+LA 22097 St. Landry, LA
+LA 22099 St. Martin, LA
+LA 22101 St. Mary, LA
+LA 22103 St. Tammany, LA
+LA 22105 Tangipahoa, LA
+LA 22109 Terrebonne, LA
+LA 22113 Vermilion, LA
+LA 22115 Vernon, LA
+LA 22117 Washington, LA
+LA 22121 West Baton Rouge, LA
+LA 22125 West Feliciana, LA
+MA 25001 Barnstable, MA
+MA 25003 Berkshire, MA
+MA 25005 Bristol, MA
+MA 25007 Dukes, MA
+MA 25009 Essex, MA
+MA 25013 Hampden, MA
+MA 25017 Middlesex, MA 
+MA 25019 Nantucket, MA
+MA 25021 Norfolk, MA
+MA 25023 Plymouth, MA
+MA 25025 Suffolk, MA
+MA 25027 Worcester, MA
+MD 24003 Anne Arundel, MD
+MD 24005 Baltimore, MD
+MD 24009 Calvert, MD
+MD 24011 Caroline, MD
+MD 24013 Carroll, MD
+MD 24015 Cecil, MD
+MD 24017 Charles, MD
+MD 24019 Dorchester, MD
+MD 24025 Harford, MD
+MD 24027 Howard, MD
+MD 24029 Kent, MD
+MD 24031 Montgomery, MD
+MD 24033 Prince George's, MD
+MD 24035 Queen Anne's, MD
+MD 24037 St. Mary's, MD
+MD 24039 Somerset, MD
+MD 24041 Talbot, MD
+MD 24045 Wicomico, MD
+MD 24047 Worcester, MD
+MD 24510 Baltimore city, MD
+ME 23001 Androscoggin, ME
+ME 23005 Cumberland, ME
+ME 23007 Franklin, ME
+ME 23009 Hancock, ME
+ME 23011 Kennebec, ME
+ME 23013 Knox, ME
+ME 23015 Lincoln, ME
+ME 23017 Oxford, ME
+ME 23019 Penobscot, ME
+ME 23023 Sagadahoc, ME
+ME 23025 Somerset, ME
+ME 23027 Waldo, ME
+ME 23029 Washington, ME
+ME 23031 York, ME
+MS 28005 Amite, MS
+MS 28039 George, MS
+MS 28045 Hancock, MS
+MS 28047 Harrison, MS
+MS 28059 Jackson, MS
+MS 28073 Lamar, MS
+MS 28091 Marion, MS
+MS 28109 Pearl River, MS
+MS 28113 Pike, MS
+MS 28131 Stone, MS
+MS 28147 Walthall, MS
+MS 28157 Wilkinson, MS
+NC 37007 Anson, NC
+NC 37013 Beaufort, NC
+NC 37015 Bertie, NC
+NC 37017 Bladen, NC
+NC 37019 Brunswick, NC
+NC 37029 Camden, NC
+NC 37031 Carteret, NC
+NC 37041 Chowan, NC
+NC 37047 Columbus, NC
+NC 37049 Craven, NC
+NC 37051 Cumberland, NC
+NC 37053 Currituck, NC
+NC 37055 Dare, NC
+NC 37061 Duplin, NC
+NC 37065 Edgecombe, NC 
+NC 37073 Gates, NC
+NC 37083 Halifax, NC
+NC 37091 Hertford, NC
+NC 37095 Hyde, NC
+NC 37103 Jones, NC
+NC 37107 Lenoir, NC
+NC 37117 Martin, NC
+NC 37129 New Hanover, NC
+NC 37131 Northampton, NC
+NC 37133 Onslow, NC
+NC 37137 Pamlico, NC
+NC 37139 Pasquotank, NC
+NC 37141 Pender, NC
+NC 37143 Perquimans, NC
+NC 37147 Pitt, NC
+NC 37153 Richmond, NC
+NC 37163 Sampson, NC
+NC 37165 Scotland, NC
+NC 37177 Tyrrell, NC
+NC 37187 Washington, NC
+NC 37191 Wayne, NC
+NC 37195 Wilson, NC
+NH 33001 Belknap, NH
+NH 33003 Carroll, NH
+NH 33011 Hillsborough, NH
+NH 33013 Merrimack, NH
+NH 33015 Rockingham, NH
+NH 33017 Strafford, NH
+NJ 34001 Atlantic, NJ
+NJ 34003 Bergen, NJ
+NJ 34005 Burlington, NJ
+NJ 34007 Camden, NJ
+NJ 34009 Cape May, NJ
+NJ 34011 Cumberland, NJ
+NJ 34013 Essex, NJ
+NJ 34015 Gloucester, NJ
+NJ 34017 Hudson, NJ
+NJ 34019 Hunterdon, NJ
+NJ 34021 Mercer, NJ
+NJ 34023 Middlesex, NJ
+NJ 34025 Monmouth, NJ
+NJ 34027 Morris, NJ
+NJ 34029 Ocean, NJ
+NJ 34031 Passaic, NJ
+NJ 34033 Salem, NJ
+NJ 34035 Somerset, NJ
+NJ 34037 Sussex, NJ
+NJ 34039 Union, NJ 
+NY 36001 Albany, NY
+NY 36005 Bronx, NY
+NY 36021 Columbia, NY
+NY 36027 Dutchess, NY
+NY 36039 Greene, NY
+NY 36047 Kings, NY
+NY 36059 Nassau, NY
+NY 36061 New York, NY
+NY 36071 Orange, NY
+NY 36079 Putnam, NY
+NY 36081 Queens, NY
+NY 36083 Rensselaer, NY
+NY 36085 Richmond, NY
+NY 36087 Rockland, NY
+NY 36093 Schenectady, NY
+NY 36103 Suffolk, NY
+NY 36111 Ulster, NY
+NY 36119 Westchester, NY
+PA 42017 Bucks, PA
+PA 42029 Chester, PA
+PA 42045 Delaware, PA
+PA 42071 Lancaster, PA
+PA 42075 Lebanon, PA
+PA 42077 Lehigh, PA
+PA 42091 Montgomery, PA
+PA 42101 Philadelphia, PA
+PA 42107 Schuylkill, PA
+PA 42133 York, PA
+RI 44001 Bristol, RI
+RI 44003 Kent, RI
+RI 44005 Newport, RI
+RI 44007 Providence, RI
+RI 44009 Washington, RI
+SC 45005 Allendale, SC
+SC 45013 Beaufort, SC
+SC 45015 Berkeley, SC 
+SC 45019 Charleston, SC
+SC 45025 Chesterfield, SC
+SC 45027 Clarendon, SC
+SC 45029 Colleton, SC
+SC 45031 Darlington, SC
+SC 45033 Dillon, SC
+SC 45035 Dorchester, SC
+SC 45041 Florence, SC
+SC 45043 Georgetown, SC
+SC 45049 Hampton, SC
+SC 45051 Horry, SC
+SC 45053 Jasper, SC
+SC 45055 Kershaw, SC
+SC 45057 Lancaster, SC
+SC 45061 Lee, SC
+SC 45067 Marion, SC
+SC 45069 Marlboro, SC
+SC 45085 Sumter, SC
+SC 45089 Williamsburg, SC
+TX 48007 Aransas, TX
+TX 48015 Austin, TX
+TX 48025 Bee, TX
+TX 48039 Brazoria, TX
+TX 48047 Brooks, TX
+TX 48057 Calhoun, TX
+TX 48061 Cameron, TX
+TX 48071 Chambers, TX
+TX 48089 Colorado, TX
+TX 48123 De Witt, TX
+TX 48131 Duval, TX
+TX 48149 Fayette, TX
+TX 48157 Fort Bend, TX
+TX 48167 Galveston, TX
+TX 48175 Goliad, TX
+TX 48201 Harris, TX
+TX 48215 Hidalgo, TX
+TX 48239 Jackson, TX
+TX 48241 Jasper, TX
+TX 48245 Jefferson, TX
+TX 48247 Jim Hogg, TX
+TX 48249 Jim Wells, TX
+TX 48261 Kenedy, TX
+TX 48273 Kleberg, TX
+TX 48285 Lavaca, TX
+TX 48291 Liberty, TX
+TX 48297 Live Oak, TX
+TX 48321 Matagorda, TX
+TX 48351 Newton, TX 
+TX 48355 Nueces, TX
+TX 48361 Orange, TX
+TX 48391 Refugio, TX
+TX 48409 San Patricio, TX
+TX 48427 Starr, TX
+TX 48457 Tyler, TX
+TX 48469 Victoria, TX
+TX 48473 Waller, TX
+TX 48477 Washington, TX
+TX 48479 Webb, TX
+TX 48481 Wharton, TX
+TX 48489 Willacy, TX
+VA 51001 Accomack, VA
+VA 51007 Amelia, VA
+VA 51011 Appomattox, VA
+VA 51013 Arlington, VA
+VA 51029 Buckingham, VA
+VA 51033 Caroline, VA
+VA 51036 Charles City, VA
+VA 51041 Chesterfield, VA
+VA 51049 Cumberland, VA
+VA 51053 Dinwiddie, VA
+VA 51057 Essex, VA
+VA 51059 Fairfax, VA
+VA 51061 Fauquier, VA
+VA 51065 Fluvanna, VA
+VA 51073 Gloucester, VA
+VA 51075 Goochland, VA
+VA 51085 Hanover, VA
+VA 51087 Henrico, VA
+VA 51093 Isle of Wight, VA
+VA 51095 James City, VA
+VA 51097 King and Queen, VA
+VA 51099 King George, VA
+VA 51101 King William, VA
+VA 51103 Lancaster, VA
+VA 51109 Louisa, VA
+VA 51115 Mathews, VA
+VA 51119 Middlesex, VA
+VA 51127 New Kent, VA
+VA 51131 Northampton, VA
+VA 51133 Northumberland, VA
+VA 51135 Nottoway, VA
+VA 51137 Orange, VA
+VA 51145 Powhatan, VA
+VA 51147 Prince Edward, VA
+VA 51149 Prince George, VA
+VA 51153 Prince William, VA 
+VA 51159 Richmond, VA
+VA 51177 Spotsylvania, VA
+VA 51179 Stafford, VA
+VA 51181 Surry, VA
+VA 51193 Westmoreland, VA
+VA 51199 York, VA
+VA 51510 Alexandria, VA
+VA 51550 Chesapeake, VA
+VA 51570 Colonial Heights, VA
+VA 51600 Fairfax, VA
+VA 51610 Falls Church, VA
+VA 51630 Fredericksburg, VA
+VA 51650 Hampton, VA
+VA 51670 Hopewell, VA
+VA 51683 Manassas, VA
+VA 51685 Manassas Park, VA
+VA 51700 Newport News, VA
+VA 51710 Norfolk, VA
+VA 51730 Petersburg, VA
+VA 51735 Poquoson, VA
+VA 51740 Portsmouth, VA
+VA 51760 Richmond, VA
+VA 51800 Suffolk, VA
+VA 51810 Virginia Beach, VA
+VA 51830 Williamsburg, VA
+WI 55003 Ashland, WI
+WI 55007 Bayfield, WI
+WI 55009 Brown, WI
+WI 55015 Calumet, WI 
+WI 55029 Door, WI
+WI 55031 Douglas, WI
+WI 55037 Florence, WI
+WI 55039 Fond du Lac, WI
+WI 55041 Forest, WI
+WI 55051 Iron, WI
+WI 55059 Kenosha, WI
+WI 55061 Kewaunee, WI
+WI 55071 Manitowoc, WI
+WI 55075 Marinette, WI
+WI 55078 Menominee, WI
+WI 55079 Milwaukee, WI
+WI 55083 Oconto, WI
+WI 55087 Outagamie, WI
+WI 55089 Ozaukee, WI
+WI 55101 Racine, WI
+WI 55115 Shawano, WI
+WI 55117 Sheboygan, WI
+WI 55131 Washington, WI 
