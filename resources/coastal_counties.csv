@@ -1,0 +1,545 @@
+AL,01003,Baldwin
+AL,01025,Clarke
+AL,01039,Covington
+AL,01053,Escambia
+AL,01061,Geneva
+AL,01097,Mobile
+AL,01099,Monroe
+AL,01129,Washington
+CT,09001,Fairfield
+CT,09003,Hartford
+CT,09005,Litchfield
+CT,09007,Middlesex
+CT,09009,New Haven
+CT,09011,New London
+CT,09013,Tolland
+CT,09015,Windham
+DC,11001,District of Columbia
+DE,10001,Kent
+DE,10003,New Castle
+DE,10005,Sussex
+FL,12005,Bay
+FL,12013,Calhoun
+FL,12015,Charlotte
+FL,12017,Citrus
+FL,12021,Collier
+FL,12027,De Soto
+FL,12029,Dixie
+FL,12033,Escambia
+FL,12037,Franklin
+FL,12039,Gadsden
+FL,12041,Gilchrist
+FL,12043,Glades
+FL,12045,Gulf
+FL,12049,Hardee
+FL,12053,Hernando
+FL,12057,Hillsborough
+FL,12059,Holmes
+FL,12063,Jackson
+FL,12065,Jefferson
+FL,12067,Lafayette
+FL,12071,Lee
+FL,12073,Leon
+FL,12075,Levy
+FL,12077,Liberty
+FL,12079,Madison
+FL,12081,Manatee
+FL,12083,Marion
+FL,12087,Monroe
+FL,12091,Okaloosa
+FL,12101,Pasco
+FL,12103,Pinellas
+FL,12105,Polk
+FL,12113,Santa Rosa
+FL,12115,Sarasota
+FL,12119,Sumter
+FL,12121,Suwannee
+FL,12097,Osceola
+FL,12099,Palm Beach
+FL,12107,Putnam
+FL,12109,St. Johns
+FL,12111,St. Lucie
+FL,12117,Seminole
+FL,12127,Volusia
+GA,13001,Appling
+GA,13003,Atkinson
+GA,13005,Bacon
+GA,13025,Brantley
+GA,13029,Bryan
+GA,13031,Bulloch
+GA,13039,Camden
+GA,13049,Charlton
+GA,13051,Chatham
+GA,13069,Coffee
+GA,13103,Effingham
+GA,13127,Glynn
+GA,13155,Irwin
+GA,13161,Jeff Davis
+GA,13165,Jenkins
+GA,13179,Liberty
+GA,13183,Long
+GA,13191,McIntosh
+GA,13209,Montgomery
+GA,13229,Pierce
+GA,13251,Screven
+GA,13267,Tattnall
+GA,13279,Toombs
+GA,13299,Ware
+GA,13305,Wayne
+GA,13087,Decatur
+GA,13131,Grady
+GA,13275,Thomas
+IL,17031,Cook
+IL,17097,Lake
+IN,18039,Elkhart
+IN,18085,Kosciusko
+IN,18087,Lagrange
+IN,18089,Lake
+IN,18091,La Porte
+IN,18113,Noble
+IN,18127,Porter
+IN,18141,St. Joseph
+IN,18151,Steuben
+LA,22001,Acadia
+LA,22005,Ascension
+LA,22007,Assumption
+LA,22009,Avoyelles
+LA,22011,Beauregard
+LA,22019,Calcasieu
+LA,22023,Cameron
+LA,22033,East Baton Rouge
+LA,22037,East Feliciana
+LA,22039,Evangeline
+LA,22045,Iberia
+LA,22047,Iberville
+LA,22051,Jefferson
+LA,22053,Jefferson Davis
+LA,22055,Lafayette
+LA,22057,Lafourche
+LA,22063,Livingston
+LA,22071,Orleans
+LA,22075,Plaquemines
+LA,22077,Pointe Coupee
+LA,22079,Rapides
+LA,22085,Sabine
+LA,22087,St. Bernard
+LA,22089,St. Charles
+LA,22091,St. Helena
+LA,22093,St. James
+LA,22095,St. John the Baptist
+LA,22097,St. Landry
+LA,22099,St. Martin
+LA,22101,St. Mary
+LA,22103,St. Tammany
+LA,22105,Tangipahoa
+LA,22109,Terrebonne
+LA,22113,Vermilion
+LA,22115,Vernon
+LA,22117,Washington
+LA,22121,West Baton Rouge
+LA,22125,West Feliciana
+MA,25001,Barnstable
+MA,25003,Berkshire
+MA,25005,Bristol
+MA,25007,Dukes
+MA,25009,Essex
+MA,25013,Hampden
+MA,25017,Middlesex
+MA,25019,Nantucket
+MA,25021,Norfolk
+MA,25023,Plymouth
+MA,25025,Suffolk
+MA,25027,Worcester
+MD,24003,Anne Arundel
+MD,24005,Baltimore
+MD,24009,Calvert
+MD,24011,Caroline
+MD,24013,Carroll
+MD,24015,Cecil
+MD,24017,Charles
+MD,24019,Dorchester
+MD,24025,Harford
+MD,24027,Howard
+MD,24029,Kent
+MD,24031,Montgomery
+MD,24033,Prince George's
+MD,24035,Queen Anne's
+MD,24037,St. Mary's
+MD,24039,Somerset
+MD,24041,Talbot
+MD,24045,Wicomico
+MD,24047,Worcester
+MD,24510,Baltimore city
+ME,23001,Androscoggin
+ME,23005,Cumberland
+ME,23007,Franklin
+ME,23009,Hancock
+ME,23011,Kennebec
+ME,23013,Knox
+ME,23015,Lincoln
+ME,23017,Oxford
+ME,23019,Penobscot
+ME,23023,Sagadahoc
+ME,23025,Somerset
+ME,23027,Waldo
+ME,23029,Washington
+ME,23031,York
+MI,26001,Alcona
+MI,26003,Alger
+MI,26005,Allegan
+MI,26007,Alpena
+MI,26009,Antrim
+MI,26011,Arenac
+MI,26013,Baraga
+MI,26015,Barry
+MI,26017,Bay
+MI,26019,Benzie
+MI,26021,Berrien
+MI,26023,Branch
+MI,26025,Calhoun
+MI,26027,Cass
+MI,26029,Charlevoix
+MI,26031,Cheboygan
+MI,26033,Chippewa
+MI,26035,Clare
+MI,26039,Crawford
+MI,26041,Delta
+MI,26043,Dickinson
+MI,26045,Eaton
+MI,26047,Emmet
+MI,26053,Gogebic
+MI,26055,Grand Traverse
+MI,26059,Hillsdale
+MI,26061,Houghton
+MI,26063,Huron
+MI,26067,Ionia
+MI,26069,Iosco
+MI,26075,Jackson
+MI,26077,Kalamazoo
+MI,26079,Kalkaska
+MI,26081,Kent
+MI,26083,Keweenaw
+MI,26085,Lake
+MI,26087,Lapeer
+MI,26089,Leelanau
+MI,26091,Lenawee
+MI,26093,Livingston
+MI,26095,Luce
+MI,26097,Mackinac
+MI,26099,Macomb
+MI,26101,Manistee
+MI,26103,Marquette
+MI,26105,Mason
+MI,26107,Mecosta
+MI,26109,Menominee
+MI,26113,Missaukee
+MI,26115,Monroe
+MI,26117,Montcalm
+MI,26119,Montmorency
+MI,26121,Muskegon
+MI,26123,Newaygo
+MI,26125,Oakland
+MI,26127,Oceana
+MI,26129,Ogemaw
+MI,26131,Ontonagon
+MI,26133,Osceola
+MI,26135,Oscoda
+MI,26137,Otsego
+MI,26139,Ottawa
+MI,26141,Presque Isle
+MI,26143,Roscommon
+MI,26145,Saginaw
+MI,26147,St. Clair
+MI,26149,St. Joseph
+MI,26151,Sanilac
+MI,26153,Schoolcraft
+MI,26157,Tuscola
+MI,26159,Van Buren
+MI,26161,Washtenaw
+MI,26163,Wayne
+MI,26165,Wexford
+MN,27017,Carlton
+MN,27031,Cook
+MN,27075,Lake
+MN,27137,St. Louis
+MS,28005,Amite
+MS,28039,George
+MS,28045,Hancock
+MS,28047,Harrison
+MS,28059,Jackson
+MS,28073,Lamar
+MS,28091,Marion
+MS,28109,Pearl River
+MS,28113,Pike
+MS,28131,Stone
+MS,28147,Walthall
+MS,28157,Wilkinson
+NC,37007,Anson
+NC,37013,Beaufort
+NC,37015,Bertie
+NC,37017,Bladen
+NC,37019,Brunswick
+NC,37029,Camden
+NC,37031,Carteret
+NC,37041,Chowan
+NC,37047,Columbus
+NC,37049,Craven
+NC,37051,Cumberland
+NC,37053,Currituck
+NC,37055,Dare
+NC,37061,Duplin
+NC,37065,Edgecombe
+NC,37073,Gates
+NC,37083,Halifax
+NC,37091,Hertford
+NC,37095,Hyde
+NC,37103,Jones
+NC,37107,Lenoir
+NC,37117,Martin
+NC,37129,New Hanover
+NC,37131,Northampton
+NC,37133,Onslow
+NC,37137,Pamlico
+NC,37139,Pasquotank
+NC,37141,Pender
+NC,37143,Perquimans
+NC,37147,Pitt
+NC,37153,Richmond
+NC,37163,Sampson
+NC,37165,Scotland
+NC,37177,Tyrrell
+NC,37187,Washington
+NC,37191,Wayne
+NC,37195,Wilson
+NH,33001,Belknap
+NH,33003,Carroll
+NH,33011,Hillsborough
+NH,33013,Merrimack
+NH,33015,Rockingham
+NH,33017,Strafford
+NJ,34001,Atlantic
+NJ,34003,Bergen
+NJ,34005,Burlington
+NJ,34007,Camden
+NJ,34009,Cape May
+NJ,34011,Cumberland
+NJ,34013,Essex
+NJ,34015,Gloucester
+NJ,34017,Hudson
+NJ,34019,Hunterdon
+NJ,34021,Mercer
+NJ,34023,Middlesex
+NJ,34025,Monmouth
+NJ,34027,Morris
+NJ,34029,Ocean
+NJ,34031,Passaic
+NJ,34033,Salem
+NJ,34035,Somerset
+NJ,34037,Sussex
+NJ,34039,Union
+NY,36001,Albany
+NY,36005,Bronx
+NY,36021,Columbia
+NY,36027,Dutchess
+NY,36039,Greene
+NY,36047,Kings
+NY,36059,Nassau
+NY,36061,New York
+NY,36071,Orange
+NY,36079,Putnam
+NY,36081,Queens
+NY,36083,Rensselaer
+NY,36085,Richmond
+NY,36087,Rockland
+NY,36093,Schenectady
+NY,36103,Suffolk
+NY,36111,Ulster
+NY,36119,Westchester
+OH,39005,Ashland
+OH,39007,Ashtabula
+OH,39033,Crawford
+OH,39035,Cuyahoga
+OH,39039,Defiance
+OH,39043,Erie
+OH,39051,Fulton
+OH,39055,Geauga
+OH,39063,Hancock
+OH,39069,Henry
+OH,39077,Huron
+OH,39085,Lake
+OH,39093,Lorain
+OH,39095,Lucas
+OH,39101,Marion
+OH,39103,Medina
+OH,39123,Ottawa
+OH,39133,Portage
+OH,39143,Sandusky
+OH,39147,Seneca
+OH,39153,Summit
+OH,39155,Trumbull
+OH,39173,Wood
+OH,39175,Wyandot
+PA,42001,Adams
+PA,42011,Berks
+PA,42017,Bucks
+PA,42029,Chester
+PA,42045,Delaware
+PA,42071,Lancaster
+PA,42075,Lebanon
+PA,42077,Lehigh
+PA,42091,Montgomery
+PA,42101,Philadelphia
+PA,42107,Schuylkill
+PA,42133,York
+RI,44001,Bristol
+RI,44003,Kent
+RI,44005,Newport
+RI,44007,Providence
+RI,44009,Washington
+SC,45005,Allendale
+SC,45013,Beaufort
+SC,45015,Berkeley
+SC,45019,Charleston
+SC,45025,Chesterfield
+SC,45027,Clarendon
+SC,45029,Colleton
+SC,45031,Darlington
+SC,45033,Dillon
+SC,45035,Dorchester
+SC,45041,Florence
+SC,45043,Georgetown
+SC,45049,Hampton
+SC,45051,Horry
+SC,45053,Jasper
+SC,45055,Kershaw
+SC,45057,Lancaster
+SC,45061,Lee
+SC,45067,Marion
+SC,45069,Marlboro
+SC,45085,Sumter
+SC,45089,Williamsburg
+TX,48007,Aransas
+TX,48015,Austin
+TX,48025,Bee
+TX,48039,Brazoria
+TX,48047,Brooks
+TX,48057,Calhoun
+TX,48061,Cameron
+TX,48071,Chambers
+TX,48089,Colorado
+TX,48123,De Witt
+TX,48131,Duval
+TX,48149,Fayette
+TX,48157,Fort Bend
+TX,48167,Galveston
+TX,48175,Goliad
+TX,48201,Harris
+TX,48215,Hidalgo
+TX,48239,Jackson
+TX,48241,Jasper
+TX,48245,Jefferson
+TX,48247,Jim Hogg
+TX,48249,Jim Wells
+TX,48261,Kenedy
+TX,48273,Kleberg
+TX,48285,Lavaca
+TX,48291,Liberty
+TX,48297,Live Oak
+TX,48321,Matagorda
+TX,48351,Newton
+TX,48355,Nueces
+TX,48361,Orange
+TX,48391,Refugio
+TX,48409,San Patricio
+TX,48427,Starr
+TX,48457,Tyler
+TX,48469,Victoria
+TX,48473,Waller
+TX,48477,Washington
+TX,48479,Webb
+TX,48481,Wharton
+TX,48489,Willacy
+VA,51001,Accomack
+VA,51007,Amelia
+VA,51011,Appomattox
+VA,51013,Arlington
+VA,51029,Buckingham
+VA,51033,Caroline
+VA,51036,Charles City
+VA,51041,Chesterfield
+VA,51049,Cumberland
+VA,51053,Dinwiddie
+VA,51057,Essex
+VA,51059,Fairfax
+VA,51061,Fauquier
+VA,51065,Fluvanna
+VA,51073,Gloucester
+VA,51075,Goochland
+VA,51085,Hanover
+VA,51087,Henrico
+VA,51093,Isle of Wight
+VA,51095,James City
+VA,51097,King and Queen
+VA,51099,King George
+VA,51101,King William
+VA,51103,Lancaster
+VA,51109,Louisa
+VA,51115,Mathews
+VA,51119,Middlesex
+VA,51127,New Kent
+VA,51131,Northampton
+VA,51133,Northumberland
+VA,51135,Nottoway
+VA,51137,Orange
+VA,51145,Powhatan
+VA,51147,Prince Edward
+VA,51149,Prince George
+VA,51153,Prince William
+VA,51159,Richmond
+VA,51177,Spotsylvania
+VA,51179,Stafford
+VA,51181,Surry
+VA,51193,Westmoreland
+VA,51199,York
+VA,51510,Alexandria
+VA,51550,Chesapeake
+VA,51570,Colonial Heights
+VA,51600,Fairfax
+VA,51610,Falls Church
+VA,51630,Fredericksburg
+VA,51650,Hampton
+VA,51670,Hopewell
+VA,51683,Manassas
+VA,51685,Manassas Park
+VA,51700,Newport News
+VA,51710,Norfolk
+VA,51730,Petersburg
+VA,51735,Poquoson
+VA,51740,Portsmouth
+VA,51760,Richmond
+VA,51800,Suffolk
+VA,51810,Virginia Beach
+VA,51830,Williamsburg
+WI,55003,Ashland
+WI,55007,Bayfield
+WI,55009,Brown
+WI,55015,Calumet
+WI,55029,Door
+WI,55031,Douglas
+WI,55037,Florence
+WI,55039,Fond du Lac
+WI,55041,Forest
+WI,55051,Iron
+WI,55059,Kenosha
+WI,55061,Kewaunee
+WI,55071,Manitowoc
+WI,55075,Marinette
+WI,55078,Menominee
+WI,55079,Milwaukee
+WI,55083,Oconto
+WI,55087,Outagamie
+WI,55089,Ozaukee
+WI,55101,Racine
+WI,55115,Shawano
+WI,55117,Sheboygan
+WI,55131,Washington
