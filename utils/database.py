@@ -34,5 +34,11 @@ class Database:
         self.cursor.execute(query)
         return self.cursor
 
+    def ijoin(self, main_db, other_db, select_fields, match_criteria): 
+        self.cursor.execute("""SELECT {fields} 
+        FROM {mdb} 
+        INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db, mcrit=match_criteria))
+        return self.cursor
+
     def run(self, query): 
         self.cursor.execute(query)
