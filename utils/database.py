@@ -38,7 +38,7 @@ class Database:
         main_db = 'counties'   
         other_db_file, other_db_tb = other_db
         
-        self.cursor.execute("""ATTACH "{}" AS {}""".format(other_db_file, other_db))     
+        self.cursor.execute("""ATTACH "{}" AS {}""".format(other_db_file, other_db_tb))     
 
 
         print """SELECT {fields} 
