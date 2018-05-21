@@ -36,9 +36,9 @@ class Database:
 
     def ijoin(self, other_db, select_fields, match_criteria): 
         main_db = 'counties'   
-        other_db_file, other_db_tb = other_db
+        other_db_file, other_db_name, other_db_tb = other_db
         
-        self.cursor.execute("""ATTACH "{}" AS {}""".format(other_db_file, other_db_tb))     
+        self.cursor.execute("""ATTACH "{}" AS {}""".format(other_db_file, other_db_name))     
 
 
         print """SELECT {fields} 
