@@ -28,11 +28,16 @@ if __name__== "__main__":
 
         joined_rows = coastal_counties_db.ijoin((tweet_db_file, 'other_db', 'tweets'), FIELDS_TO_SELECT_FOR_JOIN + ',counties.fips', MATCH_CRITERIA_FOR_JOIN)
 
+        print "Got rows"
+
         current_coastal_counties_db.cursor.execute('BEGIN')
         
+        print "Inserting rows"
         current_coastal_counties_db.insert("""INSERT INTO {} 
             VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
-                        
+
+        print "Commiting rows"
+                                
         current_coastal_counties_db.connection.commit()
         current_coastal_counties_db.connection.close()
 
