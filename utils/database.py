@@ -34,22 +34,15 @@ class Database:
         self.cursor.execute(query)
         return self.cursor
 
-    def ijoin(self, other_db_file, select_fields, match_criteria): 
-        main_db = self.connection   
-        other_db = 'other_db'
+    def ijoin(self, other_db, select_fields, match_criteria): 
+        main_db = 'counties'   
+        other_db_file, other_db_tb = other_db
         
         self.cursor.execute("""ATTACH "{}" AS {}""".format(other_db_file, other_db))     
 
-
-
-        print """SELECT {fields} 
-            FROM {mdb} 
-            INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db, mcrit=match_criteria)
-
-            
         self.cursor.execute("""SELECT {fields} 
             FROM {mdb} 
-            INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db, mcrit=match_criteria))
+            INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db_tb, mcrit=match_criteria))
         return self.cursor
 
     def run(self, query): 
