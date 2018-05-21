@@ -38,6 +38,8 @@ class Database:
         main_db = self.connection   
         other_db = 'other_db'
         
+        print """ATTACH {} AS {}""".format(other_db_file, other_db)
+        
         self.cursor.execute("""ATTACH {} AS {}""".format(other_db_file, other_db))     
         self.cursor.execute("""SELECT {fields} 
             FROM {mdb} 
