@@ -1,7 +1,8 @@
 import os
 
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__)).replace('utils', '')
+# ROOT_DIR = os.path.dirname(os.path.abspath(__file__)).replace('utils', '')
+ROOT_DIR = os.getcwd().replace('utils', '')
 
 TWEETS_TABLENAME = 'tweets'
 FIELDS_TO_SELECT_FOR_JOIN = 'user_id, tweet_text, tweet_location, tweet_date'
