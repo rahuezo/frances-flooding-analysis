@@ -38,9 +38,15 @@ class Database:
         main_db = self.connection   
         other_db = 'other_db'
         
-        print """ATTACH {} AS {}""".format(other_db_file, other_db)
-
         self.cursor.execute("""ATTACH "{}" AS {}""".format(other_db_file, other_db))     
+
+
+
+        print """SELECT {fields} 
+            FROM {mdb} 
+            INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db, mcrit=match_criteria)
+
+            
         self.cursor.execute("""SELECT {fields} 
             FROM {mdb} 
             INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db, mcrit=match_criteria))
