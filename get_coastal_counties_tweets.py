@@ -1,4 +1,6 @@
+from utils.configuration import (FIELDS_TO_SELECT_FOR_JOIN, MATCH_CRITERIA_FOR_JOIN, RESULTS_PATH, COASTAL_COUNTIES_TWEETS_TABLE)
 from utils.database import Database
+
 
 import tkFileDialog as fd
 import time, sys, os
@@ -20,6 +22,24 @@ if __name__== "__main__":
 
     for i, tweet_db_file in enumerate(tweet_db_files): 
         print '{} out of {} databases'.format(i + 1, len(tweet_db_files))
+
+        current_coastal_counties_db = Database(os.path.join(RESULTS_PATH, tweet_db_file))        
+        coastal_counties_tweets_table = current_coastal_counties_db.create_table(*COASTAL_COUNTIES_TWEETS_TABLE)
+
+        joined_rows = coastal_counties_db.ijoin(tweet_db_file, FIELDS_TO_SELECT_FOR_JOIN, MATCH_CRITERIA_FOR_JOIN)
+
+        current_coastal_counties_db.cursor.execute('BEGIN')
+        
+        current_coastal_counties_db.insert("""INSERT INTO {} 
+            VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
+                        
+        current_coastal_counties_db.connection.commit()
+        current_coastal_counties_db.connection.close()
+
+    coastal_counties_db.connection.close()
+
+
+
 
 
 
