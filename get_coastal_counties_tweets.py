@@ -26,7 +26,7 @@ if __name__== "__main__":
         current_coastal_counties_db = Database(os.path.join(RESULTS_PATH, tweet_db_file))        
         coastal_counties_tweets_table = current_coastal_counties_db.create_table(*COASTAL_COUNTIES_TWEETS_TABLE)
 
-        joined_rows = coastal_counties_db.ijoin((tweet_db_file, 'other_db'), FIELDS_TO_SELECT_FOR_JOIN + ',counties.fips', MATCH_CRITERIA_FOR_JOIN)
+        joined_rows = coastal_counties_db.ijoin((tweet_db_file, 'other_db.tweets'), FIELDS_TO_SELECT_FOR_JOIN + ',counties.fips', MATCH_CRITERIA_FOR_JOIN)
 
         current_coastal_counties_db.cursor.execute('BEGIN')
         
