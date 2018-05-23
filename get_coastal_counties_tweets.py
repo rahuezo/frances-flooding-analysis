@@ -6,7 +6,10 @@ import tkFileDialog as fd
 import time, sys, os
 
 
-RESULTS_PATH = 'results'
+RESULTS_PATH = os.path.join(os.getcwd(), 'results')
+
+if not os.path.exists(RESULTS_PATH): 
+    os.makedirs(RESULTS_PATH)
 
 
 if __name__== "__main__":
@@ -28,6 +31,8 @@ if __name__== "__main__":
     for i, tweet_db_file in enumerate(tweet_db_files): 
         print '{} out of {} databases'.format(i + 1, len(tweet_db_files))
 
+        os.chdir(RESULTS_PATH)
+        
         current_coastal_counties_db = Database(os.path.join(RESULTS_PATH, tweet_db_file))        
         coastal_counties_tweets_table = current_coastal_counties_db.create_table(*COASTAL_COUNTIES_TWEETS_TABLE)
 
