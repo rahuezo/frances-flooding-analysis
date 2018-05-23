@@ -1,7 +1,12 @@
 import os
 
+from subprocess import call
 
-# ROOT_DIR = os.path.dirname(os.path.abspath(__file__)).replace('utils', '')
+print "Pulling updates...\n"
+call(['git', 'pull'])
+
+
+
 ROOT_DIR = os.getcwd().replace('utils', '')
 
 TWEETS_TABLENAME = 'tweets'
