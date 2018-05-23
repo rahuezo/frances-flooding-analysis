@@ -6,7 +6,7 @@ import tkFileDialog as fd
 import time, sys, os
 
 
-RESULTS_PATH = os.path.join(os.getcwd(), 'results')
+RESULTS_PATH = 'results'
 
 
 if __name__== "__main__":
