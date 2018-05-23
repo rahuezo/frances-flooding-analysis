@@ -37,16 +37,16 @@ if __name__== "__main__":
 
         # print "Got rows"        
 
-        # current_coastal_counties_db.cursor.execute('BEGIN')
+        current_coastal_counties_db.cursor.execute('BEGIN')
         
-        # print "Inserting rows"
-        # current_coastal_counties_db.insert("""INSERT INTO {} 
-        #     VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
+        print "Inserting rows"
+        current_coastal_counties_db.insert("""INSERT INTO {} 
+            VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
 
-        # print "Commiting rows"
+        print "Commiting rows"
 
         # current_coastal_counties_db.connection.commit()
-        # current_coastal_counties_db.connection.close()
+        current_coastal_counties_db.connection.close()
 
     print "Closing coastal counties db"
     coastal_counties_db.connection.close()
