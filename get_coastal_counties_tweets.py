@@ -32,14 +32,14 @@ if __name__== "__main__":
         print '{} out of {} databases'.format(i + 1, len(tweet_db_files))
 
         os.chdir(RESULTS_PATH)
-        
-        current_coastal_counties_db = Database(os.path.join(RESULTS_PATH, tweet_db_file))        
+        current_coastal_counties_db_file = os.path.join(RESULTS_PATH, tweet_db_file)
+        current_coastal_counties_db = Database(current_coastal_counties_db_file)        
         coastal_counties_tweets_table = current_coastal_counties_db.create_table(*COASTAL_COUNTIES_TWEETS_TABLE)
 
         joined_rows = coastal_counties_db.ijoin((tweet_db_file, 'other_db', 'tweets'), FIELDS_TO_SELECT_FOR_JOIN + ',counties.fips', MATCH_CRITERIA_FOR_JOIN)
 
         print "Current Results Path: ", RESULTS_PATH
-        print "Current coastal county db path: ", os.path.join(RESULTS_PATH, tweet_db_file)
+        print "Current coastal county db path: ", current_coastal_counties_db_file
         # print "Got rows"        
 
         current_coastal_counties_db.cursor.execute('BEGIN')
