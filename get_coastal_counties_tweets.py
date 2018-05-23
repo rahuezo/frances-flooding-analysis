@@ -44,6 +44,7 @@ if __name__== "__main__":
         current_coastal_counties_db.connection.commit()
         current_coastal_counties_db.connection.close()
 
+    print "Closing coastal counties db"
     coastal_counties_db.connection.close()
     
 
