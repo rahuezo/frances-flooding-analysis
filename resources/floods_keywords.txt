@@ -1,120 +1,216 @@
-flood
-flooding
-heavy rain
-topographic
-flash flooding
-river flooding
-heavy rainfall
-convective
-areal extent
-snowmelt
-snow melt
-drainage basin
-flood potential
-soil moisture content
-degree of foliation
-high tide flooding
-nuisance flooding 
-flood warning
-flood stage
-above the flood stage
-above flood stage
-region flood
-levy
-levee
-water flow
-backup in storm drains 
-basement flooding
-army corps of engineers
-water pumps
-water seepage
-cubic feet per second
-record level
-record levels
-near-flood
-sandbag
-flooded counties
-severe flooding
-recent rain
-threatened state highways
-threatened local roads
-continue to rise
-major flooding
-handling water flow
-reached a crest
-flood resilience
-standing water
-overflow of water
-covered by water
-hydrology 
-tide inflow
-inflow of the tide
-flowing water 
-breaks levees
-water overtops
-accumulation of rainwater
-saturated ground
-flow rate
-flow rate exceeds
-waterway 
-infiltrate
-run off
-surface soil
-stopped filtration
-shallow water table 
-floodplain
-infiltration
-areal flooding
-overland flow 
-surface slope 
-riverine
-localized flooding
-slow-rising floods
-increase in flow
-sustained rainfall
-rapid snowmelt
-rapid snow melt
-rapid flooding
-impermeable terrain
-convective precipitation
-depletion by wetting soil
-estuarine
-coastal
-low barometric pressure
-sea tidal surges
-estuaries
-urban flooding 
-inundation
-catastrophic riverine flooding
-riverine flooding
-tsunami
-coastal flooding
-sequestered as snow
-sequestered as ice
-precipitation threshold
-warm rainfall
-melting heavy snow pack
-extensive flooding
-flood control 
-flood-prone
-floodwall
-annual maximum flow rate
-annual maximum flow rates
-recurrence intervals
-flood insurance
-stream flow
-stream flows
-volumetric capacity
-degree of saturation
 100-year-flood
-public inconvenience
-road closure
-overwhelmed stormdrain
-sea level rise
-land subsidence
-land sinking
-coastal barrier
-local elevation
+above flood stage
+above the flood stage
+accelerated land loss
+acceleration in sea level rise
+accumulation of rainwater
+annual maximum flow rate
+aquatic hazard
+areal extent
+areal flooding
+army corps of engineers
+backup in storm drains
+basement flooding
+breaks levees
+bus splash
+car splash
+car sprayed water
+catastrophic riverine flooding
+change water level
+chronic flood
+chronic inundation
+chronically flooded
+chronically inundated
 climate change
 climate-related sea level rise
-acceleration in sea level rise
+coastal
+coastal barrier
+coastal flooding
+coastal region
+continue to rise
+convective
+convective precipitation
+costly clean up
+costly cleanup
+covered by water
+cubic feet per second
+degree of foliation
+degree of saturation
+depletion by wetting soil
+doused
+dousing game
+drainage basin
+drenched jacket
+drenched pant legs
+drenched pants
+drenched shoes
+drive through puddle
+driving through puddle
+driving through puddle
+drove through puddle
+eastern seaboard
+estuaries
+estuarine
+extensive flooding
+flash flooding
+flood
+flood control
+flood insurance
+flood on nice
+flood on sunny
+flood potential
+flood resilience
+flood stage
+flood warning
+flood-prone
+flooded basement
+flooded city
+flooded counties
+flooded sidewalk
+flooded street
+flooded urban
+flooding
+floodplain
+floods along the coast
+floodwall
+flow rate
+flow rate exceeds
+flowing water
+groundwater extraction
+groundwater level
+handling water flow
+heavy rain
+heavy rainfall
+high tide flooding
+hydrology
+impermeable terrain
+increase in flow
+infiltrate
+infiltrate structure
+infiltrated structure
+infiltrating structure
+infiltration
+inflow of the tide
+inundated basement
+inundated road
+inundation
+jacket was soaked
+land is sinking
+land sinking
+land subsidence
+levee
+levy
+local elevation
+local flooding
+localized flooding
+low barometric pressure
+low elevation threshold
+low lying coastal area
+low-lying coastal area
+major flooding
+melting heavy snow pack
+miniature tidal wave
+minor flooding
+moderate sea level rise
+mud flat
+mushy rain
+near-flood
+normal high tide
+nuisance flood
+nuisance flooding
+overflow of water
+overland flow
+overwhelmed storm drain
+overwhelmed stormdrain
+pedestrians splashed
+plenty of flooding
+precipitation threshold
+public inconvenience
+puddle
+puddle soaked
+puddle-soaked
+rain causes chaos
+rapid flooding
+rapid snow melt
+rapid snowmelt
+reached a crest
+recent rain
+record level
+record levels
+recurrence intervals
+region flood
+relative sea level
+river flooding
+riverine
+riverine flooding
+road closure
+road closure
+roads impassable
+roadside wave
+run off
+sandbag
+saturated ground
+sea level rise
+sea tidal surges
+seeps into basement
+sequestered as ice
+sequestered as snow
+severe flooding
+shallow water table
+slow-rising floods
+snow melt
+snowmelt
+soaked jacket
+soaked pants
+soaked pedestrian
+soaked shirt
+soaked shoes
+soil moisture content
+splashed water
+standing water
+stopped filtration
+storm surge
+stream flow
+stream flows
+submerged under water
+surface slope
+surface soil
+surface water storage
+sustained rainfall
+threatened local roads
+threatened state highways
+tidal flood
+tidal wetlands
+tide gauge
+tide inflow
+topographic
+tsunami
+urban flooding
+urban flooding
+vertical and horizontal response
+volumetric capacity
+warm rainfall
+water build up
+water building up
+water flow
+water in basement
+water level change
+water load
+water management
+water on the road
+water overtops
+water pool
+water pumps
+water seepage
+water soaked
+water splash
+water threshold
+waterway
+watery hazard
+weather induced flood
+wet bus stop
+wet car
+wet road
+wet shoes
+wet sidewalk
+wet tire
