@@ -14,8 +14,6 @@ if not os.path.exists(RESULTS_PATH):
 
 if __name__== "__main__":
     try: 
-        print "Original Results Path: ", RESULTS_PATH
-
         coastal_counties_db_file = fd.askopenfilename(title="Choose coastal counties database")
         tweet_db_files = fd.askopenfilenames(title="Choose ALL databases with tweets")
         
@@ -31,39 +29,20 @@ if __name__== "__main__":
     for i, tweet_db_file in enumerate(tweet_db_files): 
         print '{} out of {} databases'.format(i + 1, len(tweet_db_files))
 
-        print "Changing directory"
-        os.chdir(RESULTS_PATH)
-
-        
         current_coastal_counties_db_file = os.path.join(RESULTS_PATH, os.path.split(tweet_db_file)[1])
-
-
-        print 'os.path.join ', current_coastal_counties_db_file
-        print 'str concat ', 'results/' + tweet_db_file
-        print 'actual file name ', tweet_db_file
-        
         current_coastal_counties_db = Database(current_coastal_counties_db_file) 
 
-        
         coastal_counties_tweets_table = current_coastal_counties_db.create_table(*COASTAL_COUNTIES_TWEETS_TABLE)
 
         joined_rows = coastal_counties_db.ijoin((tweet_db_file, 'other_db', 'tweets'), FIELDS_TO_SELECT_FOR_JOIN + ',counties.fips', MATCH_CRITERIA_FOR_JOIN)
-
-        
-        # print "Got rows"        
-
         current_coastal_counties_db.cursor.execute('BEGIN')
         
-        print "Inserting rows"
         current_coastal_counties_db.insert("""INSERT INTO {} 
             VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
 
-        print "Commiting rows"
-
-        # current_coastal_counties_db.connection.commit()
+        current_coastal_counties_db.connection.commit()
         current_coastal_counties_db.connection.close()
 
-    print "Closing coastal counties db"
     coastal_counties_db.connection.close()
     
 
