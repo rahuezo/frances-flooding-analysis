@@ -43,6 +43,8 @@ class Database:
         self.cursor.execute("""SELECT {fields} 
             FROM {mdb} 
             INNER JOIN {odb} ON {odb}.{mcrit}={mdb}.{mcrit}""".format(fields=select_fields, mdb=main_db, odb=other_db_tb, mcrit=match_criteria))
+
+        self.cursor.execute("""DETACH DATABASE '{}'""".format(other_db_name))
         return self.cursor
 
     def run(self, query): 
