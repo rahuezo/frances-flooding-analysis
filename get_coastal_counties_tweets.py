@@ -35,7 +35,7 @@ if __name__== "__main__":
         os.chdir(RESULTS_PATH)
 
         
-        current_coastal_counties_db_file = os.path.join(RESULTS_PATH, tweet_db_file)
+        current_coastal_counties_db_file = os.path.join(RESULTS_PATH, os.path.split(tweet_db_file)[1])
 
 
         print 'os.path.join ', current_coastal_counties_db_file
