@@ -40,6 +40,7 @@ if __name__== "__main__":
 
         print 'os.path.join ', current_coastal_counties_db_file
         print 'str concat ', 'results/' + tweet_db_file
+        print 'actual file name ', tweet_db_file
         
         current_coastal_counties_db = Database(current_coastal_counties_db_file) 
 
