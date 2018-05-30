@@ -65,7 +65,7 @@ if __name__== "__main__":
         )
         
         current_coastal_counties_db.connection.commit()        
-        coastal_counties_db.cursor.execute("""DETACH DATABASE '{}'""".format(other_db_name))
+        # coastal_counties_db.cursor.execute("""DETACH DATABASE '{}'""".format(other_db_name))    
         current_coastal_counties_db.connection.close()
 
     coastal_counties_db.connection.close()
