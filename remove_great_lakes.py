@@ -63,7 +63,8 @@ if __name__== "__main__":
             DELETE FROM {this_tb} WHERE fips NOT IN (SELECT fips FROM {odb})
             """.format(this_tb='tweets', odb=other_db_name)
         )
-
+        
+        current_coastal_counties_db.connection.commit()        
         coastal_counties_db.cursor.execute("""DETACH DATABASE '{}'""".format(other_db_name))
         current_coastal_counties_db.connection.close()
 
