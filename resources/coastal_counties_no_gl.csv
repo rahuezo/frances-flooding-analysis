@@ -1,0 +1,410 @@
+county,state,fips
+Baldwin,AL,1003
+Clarke,AL,1025
+Covington,AL,1039
+Escambia,AL,1053
+Geneva,AL,1061
+Mobile,AL,1097
+Monroe,AL,1099
+Washington,AL,1129
+Fairfield,CT,9001
+Hartford,CT,9003
+Litchfield,CT,9005
+Middlesex,CT,9007
+New Haven,CT,9009
+New London,CT,9011
+Tolland,CT,9013
+Windham,CT,9015
+District of Columbia,DC,11001
+Kent,DE,10001
+New Castle,DE,10003
+Sussex,DE,10005
+Bay,FL,12005
+Calhoun,FL,12013
+Charlotte,FL,12015
+Citrus,FL,12017
+Collier,FL,12021
+De Soto,FL,12027
+Dixie,FL,12029
+Escambia,FL,12033
+Franklin,FL,12037
+Gadsden,FL,12039
+Gilchrist,FL,12041
+Glades,FL,12043
+Gulf,FL,12045
+Hardee,FL,12049
+Hernando,FL,12053
+Hillsborough,FL,12057
+Holmes,FL,12059
+Jackson,FL,12063
+Jefferson,FL,12065
+Lafayette,FL,12067
+Lee,FL,12071
+Leon,FL,12073
+Levy,FL,12075
+Liberty,FL,12077
+Madison,FL,12079
+Manatee,FL,12081
+Marion,FL,12083
+Monroe,FL,12087
+Okaloosa,FL,12091
+Pasco,FL,12101
+Pinellas,FL,12103
+Polk,FL,12105
+Santa Rosa,FL,12113
+Sarasota,FL,12115
+Sumter,FL,12119
+Suwannee,FL,12121
+Osceola,FL,12097
+Palm Beach,FL,12099
+Putnam,FL,12107
+St. Johns,FL,12109
+St. Lucie,FL,12111
+Seminole,FL,12117
+Volusia,FL,12127
+Appling,GA,13001
+Atkinson,GA,13003
+Bacon,GA,13005
+Brantley,GA,13025
+Bryan,GA,13029
+Bulloch,GA,13031
+Camden,GA,13039
+Charlton,GA,13049
+Chatham,GA,13051
+Coffee,GA,13069
+Effingham,GA,13103
+Glynn,GA,13127
+Irwin,GA,13155
+Jeff Davis,GA,13161
+Jenkins,GA,13165
+Liberty,GA,13179
+Long,GA,13183
+McIntosh,GA,13191
+Montgomery,GA,13209
+Pierce,GA,13229
+Screven,GA,13251
+Tattnall,GA,13267
+Toombs,GA,13279
+Ware,GA,13299
+Wayne,GA,13305
+Decatur,GA,13087
+Grady,GA,13131
+Thomas,GA,13275
+Acadia,LA,22001
+Ascension,LA,22005
+Assumption,LA,22007
+Avoyelles,LA,22009
+Beauregard,LA,22011
+Calcasieu,LA,22019
+Cameron,LA,22023
+East Baton Rouge,LA,22033
+East Feliciana,LA,22037
+Evangeline,LA,22039
+Iberia,LA,22045
+Iberville,LA,22047
+Jefferson,LA,22051
+Jefferson Davis,LA,22053
+Lafayette,LA,22055
+Lafourche,LA,22057
+Livingston,LA,22063
+Orleans,LA,22071
+Plaquemines,LA,22075
+Pointe Coupee,LA,22077
+Rapides,LA,22079
+Sabine,LA,22085
+St. Bernard,LA,22087
+St. Charles,LA,22089
+St. Helena,LA,22091
+St. James,LA,22093
+St. John the Baptist,LA,22095
+St. Landry,LA,22097
+St. Martin,LA,22099
+St. Mary,LA,22101
+St. Tammany,LA,22103
+Tangipahoa,LA,22105
+Terrebonne,LA,22109
+Vermilion,LA,22113
+Vernon,LA,22115
+Washington,LA,22117
+West Baton Rouge,LA,22121
+West Feliciana,LA,22125
+Barnstable,MA,25001
+Berkshire,MA,25003
+Bristol,MA,25005
+Dukes,MA,25007
+Essex,MA,25009
+Hampden,MA,25013
+Middlesex,MA,25017
+Nantucket,MA,25019
+Norfolk,MA,25021
+Plymouth,MA,25023
+Suffolk,MA,25025
+Worcester,MA,25027
+Anne Arundel,MD,24003
+Baltimore,MD,24005
+Calvert,MD,24009
+Caroline,MD,24011
+Carroll,MD,24013
+Cecil,MD,24015
+Charles,MD,24017
+Dorchester,MD,24019
+Harford,MD,24025
+Howard,MD,24027
+Kent,MD,24029
+Montgomery,MD,24031
+Prince George's,MD,24033
+Queen Anne's,MD,24035
+St. Mary's,MD,24037
+Somerset,MD,24039
+Talbot,MD,24041
+Wicomico,MD,24045
+Worcester,MD,24047
+Baltimore city,MD,24510
+Androscoggin,ME,23001
+Cumberland,ME,23005
+Franklin,ME,23007
+Hancock,ME,23009
+Kennebec,ME,23011
+Knox,ME,23013
+Lincoln,ME,23015
+Oxford,ME,23017
+Penobscot,ME,23019
+Sagadahoc,ME,23023
+Somerset,ME,23025
+Waldo,ME,23027
+Washington,ME,23029
+York,ME,23031
+Amite,MS,28005
+George,MS,28039
+Hancock,MS,28045
+Harrison,MS,28047
+Jackson,MS,28059
+Lamar,MS,28073
+Marion,MS,28091
+Pearl River,MS,28109
+Pike,MS,28113
+Stone,MS,28131
+Walthall,MS,28147
+Wilkinson,MS,28157
+Anson,NC,37007
+Beaufort,NC,37013
+Bertie,NC,37015
+Bladen,NC,37017
+Brunswick,NC,37019
+Camden,NC,37029
+Carteret,NC,37031
+Chowan,NC,37041
+Columbus,NC,37047
+Craven,NC,37049
+Cumberland,NC,37051
+Currituck,NC,37053
+Dare,NC,37055
+Duplin,NC,37061
+Edgecombe,NC,37065
+Gates,NC,37073
+Halifax,NC,37083
+Hertford,NC,37091
+Hyde,NC,37095
+Jones,NC,37103
+Lenoir,NC,37107
+Martin,NC,37117
+New Hanover,NC,37129
+Northampton,NC,37131
+Onslow,NC,37133
+Pamlico,NC,37137
+Pasquotank,NC,37139
+Pender,NC,37141
+Perquimans,NC,37143
+Pitt,NC,37147
+Richmond,NC,37153
+Sampson,NC,37163
+Scotland,NC,37165
+Tyrrell,NC,37177
+Washington,NC,37187
+Wayne,NC,37191
+Wilson,NC,37195
+Belknap,NH,33001
+Carroll,NH,33003
+Hillsborough,NH,33011
+Merrimack,NH,33013
+Rockingham,NH,33015
+Strafford,NH,33017
+Atlantic,NJ,34001
+Bergen,NJ,34003
+Burlington,NJ,34005
+Camden,NJ,34007
+Cape May,NJ,34009
+Cumberland,NJ,34011
+Essex,NJ,34013
+Gloucester,NJ,34015
+Hudson,NJ,34017
+Hunterdon,NJ,34019
+Mercer,NJ,34021
+Middlesex,NJ,34023
+Monmouth,NJ,34025
+Morris,NJ,34027
+Ocean,NJ,34029
+Passaic,NJ,34031
+Salem,NJ,34033
+Somerset,NJ,34035
+Sussex,NJ,34037
+Union,NJ,34039
+Albany,NY,36001
+Bronx,NY,36005
+Columbia,NY,36021
+Dutchess,NY,36027
+Greene,NY,36039
+Kings,NY,36047
+Nassau,NY,36059
+New York,NY,36061
+Orange,NY,36071
+Putnam,NY,36079
+Queens,NY,36081
+Rensselaer,NY,36083
+Richmond,NY,36085
+Rockland,NY,36087
+Schenectady,NY,36093
+Suffolk,NY,36103
+Ulster,NY,36111
+Westchester,NY,36119
+Adams,PA,42001
+Berks,PA,42011
+Bucks,PA,42017
+Chester,PA,42029
+Delaware,PA,42045
+Lancaster,PA,42071
+Lebanon,PA,42075
+Lehigh,PA,42077
+Montgomery,PA,42091
+Philadelphia,PA,42101
+Schuylkill,PA,42107
+York,PA,42133
+Bristol,RI,44001
+Kent,RI,44003
+Newport,RI,44005
+Providence,RI,44007
+Washington,RI,44009
+Allendale,SC,45005
+Beaufort,SC,45013
+Berkeley,SC,45015
+Charleston,SC,45019
+Chesterfield,SC,45025
+Clarendon,SC,45027
+Colleton,SC,45029
+Darlington,SC,45031
+Dillon,SC,45033
+Dorchester,SC,45035
+Florence,SC,45041
+Georgetown,SC,45043
+Hampton,SC,45049
+Horry,SC,45051
+Jasper,SC,45053
+Kershaw,SC,45055
+Lancaster,SC,45057
+Lee,SC,45061
+Marion,SC,45067
+Marlboro,SC,45069
+Sumter,SC,45085
+Williamsburg,SC,45089
+Aransas,TX,48007
+Austin,TX,48015
+Bee,TX,48025
+Brazoria,TX,48039
+Brooks,TX,48047
+Calhoun,TX,48057
+Cameron,TX,48061
+Chambers,TX,48071
+Colorado,TX,48089
+De Witt,TX,48123
+Duval,TX,48131
+Fayette,TX,48149
+Fort Bend,TX,48157
+Galveston,TX,48167
+Goliad,TX,48175
+Harris,TX,48201
+Hidalgo,TX,48215
+Jackson,TX,48239
+Jasper,TX,48241
+Jefferson,TX,48245
+Jim Hogg,TX,48247
+Jim Wells,TX,48249
+Kenedy,TX,48261
+Kleberg,TX,48273
+Lavaca,TX,48285
+Liberty,TX,48291
+Live Oak,TX,48297
+Matagorda,TX,48321
+Newton,TX,48351
+Nueces,TX,48355
+Orange,TX,48361
+Refugio,TX,48391
+San Patricio,TX,48409
+Starr,TX,48427
+Tyler,TX,48457
+Victoria,TX,48469
+Waller,TX,48473
+Washington,TX,48477
+Webb,TX,48479
+Wharton,TX,48481
+Willacy,TX,48489
+Accomack,VA,51001
+Amelia,VA,51007
+Appomattox,VA,51011
+Arlington,VA,51013
+Buckingham,VA,51029
+Caroline,VA,51033
+Charles City,VA,51036
+Chesterfield,VA,51041
+Cumberland,VA,51049
+Dinwiddie,VA,51053
+Essex,VA,51057
+Fairfax,VA,51059
+Fauquier,VA,51061
+Fluvanna,VA,51065
+Gloucester,VA,51073
+Goochland,VA,51075
+Hanover,VA,51085
+Henrico,VA,51087
+Isle of Wight,VA,51093
+James City,VA,51095
+King and Queen,VA,51097
+King George,VA,51099
+King William,VA,51101
+Lancaster,VA,51103
+Louisa,VA,51109
+Mathews,VA,51115
+Middlesex,VA,51119
+New Kent,VA,51127
+Northampton,VA,51131
+Northumberland,VA,51133
+Nottoway,VA,51135
+Orange,VA,51137
+Powhatan,VA,51145
+Prince Edward,VA,51147
+Prince George,VA,51149
+Prince William,VA,51153
+Richmond,VA,51159
+Spotsylvania,VA,51177
+Stafford,VA,51179
+Surry,VA,51181
+Westmoreland,VA,51193
+York,VA,51199
+Alexandria,VA,51510
+Chesapeake,VA,51550
+Colonial Heights,VA,51570
+Fairfax,VA,51600
+Falls Church,VA,51610
+Fredericksburg,VA,51630
+Hampton,VA,51650
+Hopewell,VA,51670
+Manassas,VA,51683
+Manassas Park,VA,51685
+Newport News,VA,51700
+Norfolk,VA,51710
+Petersburg,VA,51730
+Poquoson,VA,51735
+Portsmouth,VA,51740
+Richmond,VA,51760
+Suffolk,VA,51800
+Virginia Beach,VA,51810
+Williamsburg,VA,51830
