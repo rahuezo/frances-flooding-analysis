@@ -60,8 +60,8 @@ if __name__== "__main__":
 
         current_coastal_counties_db.cursor.execute(
             """
-            DELETE FROM {this_tb} WHERE fips NOT IN (SELECT fips FROM {odb})
-            """.format(this_tb='tweets', odb=other_db_name)
+            DELETE FROM {ttb} WHERE fips NOT IN (SELECT fips FROM {odb}.counties_ngl)
+            """.format(ttb='tweets', odb=other_db_name)
         )
         
         current_coastal_counties_db.connection.commit()        
