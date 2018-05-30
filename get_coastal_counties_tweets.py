@@ -68,14 +68,10 @@ if __name__== "__main__":
         joined_rows, other_db_name = coastal_counties_db.ijoin((tweet_db_file, 'other_db', 'tweets'), FIELDS_TO_SELECT_FOR_JOIN + ',counties.fips', MATCH_CRITERIA_FOR_JOIN)
         current_coastal_counties_db.cursor.execute('BEGIN')
         
-        print "Joined rows"
-        for i in joined_rows: 
-            print i
-        print "End joined rows"
-        # current_coastal_counties_db.insert("""INSERT INTO {} 
-        #     VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
+        current_coastal_counties_db.insert("""INSERT INTO {} 
+            VALUES(?,?,?,?,?)""".format(coastal_counties_tweets_table), joined_rows, many=True)
 
-        # current_coastal_counties_db.connection.commit()
+        current_coastal_counties_db.connection.commit()
         coastal_counties_db.cursor.execute("""DETACH DATABASE '{}'""".format(other_db_name))
         current_coastal_counties_db.connection.close()
 
