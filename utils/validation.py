@@ -1,8 +1,16 @@
-import string, csv, re
+from sanitation import sanitize_string
+
+import csv, re
 
 
-KEYWORDS = [kw for kw in csv.reader(open('../resources/keywords.csv', 'rb'), delimiter=',')]
+KEYWORDS = [sanitize_string(kw[0].lower()) for kw in csv.reader(open('../resources/keywords.csv', 'rb'), delimiter=',')]
+# static Regex("(?i)kw1|kw2", RegexOptions.Compiled)
 
-def is_flood_related(text): 
-    pattern = re.compile(r'([^\s\w]|_)+', re.UNICODE)
-    return ' '.join(pattern.sub('', text).split())
+
+
+def is_flood_related(text):    
+    text = sanitize_string(text)
+    for kw in KEYWORDS: 
+        if kw in text: 
+            return True
+    return False
