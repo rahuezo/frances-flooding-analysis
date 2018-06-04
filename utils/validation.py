@@ -4,6 +4,7 @@ import csv, re
 
 
 KEYWORDS = [sanitize_string(kw[0].lower()) for kw in csv.reader(open('../resources/keywords.csv', 'rb'), delimiter=',')]
+
 # static Regex("(?i)kw1|kw2", RegexOptions.Compiled)
 
 
