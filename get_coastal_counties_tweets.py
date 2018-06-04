@@ -12,7 +12,7 @@ RESULTS_PATH = os.path.join(os.getcwd(), 'results')
 if not os.path.exists(RESULTS_PATH): 
     os.makedirs(RESULTS_PATH)
 
-CURRENT_COUNTIES_TABLE = 'counties_ngl'
+CURRENT_COUNTIES_TABLE = 'counties'
 
 
 if __name__== "__main__":
