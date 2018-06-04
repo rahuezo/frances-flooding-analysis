@@ -16,8 +16,6 @@ downloads/
 eggs/
 .eggs/
 lib/
-results/
-results-broken/
 lib64/
 parts/
 sdist/
@@ -26,6 +24,13 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+
+# Project Specific Exclusions 
+results/
+results-broken/
+*.db-shm
+*.db-wal
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
