@@ -17,6 +17,7 @@ eggs/
 .eggs/
 lib/
 results/
+results-broken/
 lib64/
 parts/
 sdist/
