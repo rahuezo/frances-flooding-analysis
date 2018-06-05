@@ -1,4 +1,3 @@
-from utils.validation import KEYWORDS
 from utils.database import Database
 
 
