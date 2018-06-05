@@ -1,13 +1,15 @@
 from utils.database import Database
-
+from utils.sanitation import sanitize_string
 
 import tkFileDialog as fd
-import time, sys, os
+import time, sys, os, csv
 import multiprocessing as mp
 
 
 RESULTS_PATH = os.path.join(os.getcwd(), 'results')
-ADD_COLUMN_COMMAND = """UPDATE tweets SET about_flood=1 WHERE tweet_text ADD_CONDITION_HERE"""
+KEYWORDS = [sanitize_string(kw[0].lower()) for kw in csv.reader(open(fd.askopenfilename(title="Choose keywords file"), 'rb'), delimiter=',')]
+
+UPDATE_COLUMN_COMMAND = """UPDATE tweets SET about_flood=1 WHERE {}""".format(" OR ".join(["tweet_text LIKE '%{}%'".format(kw) for kw in KEYWORDS]))
 
 
 if not os.path.exists(RESULTS_PATH): 
@@ -32,15 +34,11 @@ if __name__== "__main__":
         start = time.time()
 
         current_tweet_db = Database(tweet_db_file)
-
-        try: 
-            current_tweet_db.cursor.execute('BEGIN')
-            current_tweet_db.cursor.execute(ADD_COLUMN_COMMAND) # add new about_flood column default 0
-            current_tweet_db.connection.commit()
-        except Exception as e: 
-            print "\t{}".format(e)
-            print "\tColumn has already been added!\n"
-            continue
+        
+        current_tweet_db.cursor.execute('BEGIN')
+        current_tweet_db.cursor.execute(UPDATE_COLUMN_COMMAND) # add new about_flood column default 0
+        current_tweet_db.connection.commit()
+    
 
         current_tweet_db.connection.close()
 
