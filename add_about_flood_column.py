@@ -33,10 +33,15 @@ if __name__== "__main__":
         start = time.time()
 
         current_tweet_db = Database(tweet_db_file)
-        current_tweet_db.cursor.execute('BEGIN')
 
-        current_tweet_db.cursor.execute(ADD_COLUMN_COMMAND) # add new about_flood column default 0
-        current_tweet_db.connection.commit()
+        try: 
+            current_tweet_db.cursor.execute('BEGIN')
+            current_tweet_db.cursor.execute(ADD_COLUMN_COMMAND) # add new about_flood column default 0
+            current_tweet_db.connection.commit()
+        except Exception as e: 
+            print "\t{}".format(e)
+            print "\tColumn has already been added!\n"
+            continue
 
         current_tweet_db.connection.close()
 
