@@ -43,7 +43,7 @@ if __name__== "__main__":
         stats_tb = current_tweet_db.create_table('statistics', STATS_TB_COLUMNS)
 
         current_tweet_db.cursor.execute('BEGIN')
-        current_tweet_db.cursor.executescript(INSERT_GROUP_BY_COMMAND.format(stats_tb)) # create statistics table with groub by selection
+        current_tweet_db.cursor.executescript(INSERT_GROUP_BY_COMMAND.format(tbn=stats_tb)) # create statistics table with groub by selection
         current_tweet_db.connection.commit()
     
         current_tweet_db.connection.close()
