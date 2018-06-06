@@ -16,8 +16,10 @@ COASTAL_COUNTIES_TWEETS_TABLE = ('tweets', 'user_id INT, tweet_text TEXT, tweet_
 
 RESULTS_PATH = os.path.join(ROOT_DIR, 'results')
 
+STATS_TB_COLUMNS = 'fips TEXT, year INT, month INT, day INT, hour INT, total_tweets INT, total_flood_tweets INT, users INT'
 
 
-if not os.path.exists(RESULTS_PATH): 
-    os.makedirs(RESULTS_PATH)
+
+# if not os.path.exists(RESULTS_PATH): 
+#     os.makedirs(RESULTS_PATH)
 
