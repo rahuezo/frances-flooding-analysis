@@ -8,12 +8,14 @@ import multiprocessing as mp
 
 RESULTS_PATH = os.path.join(os.getcwd(), 'results')
 
-UPDATE_COLUMN_COMMAND = """
+ALTER_TABLE_COMMAND = """
     ALTER TABLE tweets ADD COLUMN year INT; 
     ALTER TABLE tweets ADD COLUMN month INT; 
     ALTER TABLE tweets ADD COLUMN day INT; 
-    ALTER TABLE tweets ADD COLUMN hour INT; 
+    ALTER TABLE tweets ADD COLUMN hour INT;
+"""
 
+UPDATE_COLUMN_COMMAND = """
     UPDATE tweets SET year = SUBSTR(tweet_date, 0, 5); 
     UPDATE tweets SET month = SUBSTR(tweet_date, 6, 2);
     UPDATE tweets SET day = SUBSTR(tweet_date, 9, 2);
@@ -45,6 +47,12 @@ if __name__== "__main__":
         current_tweet_db = Database(tweet_db_file)
 
         current_tweet_db.cursor.execute('BEGIN')
+        
+        try: 
+            current_tweet_db.cursor.executescript(ALTER_TABLE_COMMAND) # split date into year, month, day, hour
+        except: 
+            print "\tColumns year, month, day, hour already exist."
+
         current_tweet_db.cursor.executescript(UPDATE_COLUMN_COMMAND) # split date into year, month, day, hour
         current_tweet_db.connection.commit()
     
