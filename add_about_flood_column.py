@@ -8,7 +8,7 @@ import multiprocessing as mp
 
 RESULTS_PATH = os.path.join(os.getcwd(), 'results')
 ADD_COLUMN_COMMAND = """ALTER TABLE tweets ADD COLUMN about_flood INT DEFAULT 0"""
-
+RESET_ABOUT_FLOOD_COLUMN_COMMAND = """UPDATE tweets SET about_flood=0"""
 
 if not os.path.exists(RESULTS_PATH): 
     os.makedirs(RESULTS_PATH)
@@ -39,7 +39,10 @@ if __name__== "__main__":
             current_tweet_db.connection.commit()
         except Exception as e: 
             print "\t{}".format(e)
-            print "\tColumn has already been added!\n"
+            print "\tColumn has already been added! Resetting about_flood to 0.\n"
+            current_tweet_db.cursor.execute('BEGIN')
+            current_tweet_db.cursor.execute(RESET_ABOUT_FLOOD_COLUMN_COMMAND) # add new about_flood column default 0
+            current_tweet_db.connection.commit()
             continue
 
         current_tweet_db.connection.close()
