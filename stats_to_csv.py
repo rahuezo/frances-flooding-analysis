@@ -30,6 +30,8 @@ if __name__== "__main__":
     with open(os.path.join(RESULTS_PATH, "Aggregated Flood Tweet Statistics.csv"), 'wb') as output_file: 
         writer = csv.writer(output_file, delimiter=',')
 
+        writer.writerow(['fips', 'year', 'month', 'day', 'hour', 'total tweets', 'total flood tweets', 'total users'])
+        
         for i, tweet_db_file in enumerate(coastal_counties_tweets_db_files): 
             print '{} out of {} databases'.format(i + 1, len(coastal_counties_tweets_db_files))
 
@@ -39,7 +41,7 @@ if __name__== "__main__":
             current_tweet_db.cursor.execute(UPDATE_COLUMN_COMMAND) # add new about_flood column default 0
                     
             writer.writerows(current_tweet_db.cursor)
-            
+
             current_tweet_db.connection.close()
 
             end = time.time() - start
