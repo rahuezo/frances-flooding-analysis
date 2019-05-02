@@ -23,7 +23,9 @@ if __name__== "__main__":
 
         current_db = Database(tweet_db_file)
 
-        for row in current_db.select("""SELECT * FROM tweets WHERE fips IN ("{}", "{}") AND about_flood=1"""): 
+        query = """SELECT * FROM tweets WHERE fips IN ("{}", "{}") AND about_flood=1""".format(relevant_counties[0], relevant_counties[1])
+
+        for row in current_db.select(query): 
             print row
 
         
