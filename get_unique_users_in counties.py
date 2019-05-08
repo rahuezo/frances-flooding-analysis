@@ -41,7 +41,7 @@ if __name__== "__main__":
 
             print "Result: ", result
 
-            rows[os.path.split(tweet_db_file)[-1], result]
+            rows[os.path.split(tweet_db_file)[-1]] = result
 
         print rows
 
