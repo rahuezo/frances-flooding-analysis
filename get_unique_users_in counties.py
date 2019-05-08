@@ -37,7 +37,7 @@ if __name__== "__main__":
 
             current_db = Database(tweet_db_file)
 
-            result = current_db.select(query).selectone()
+            result = current_db.select(query).fetchone()[0]
 
             print "Result: ", result
 
