@@ -21,27 +21,28 @@ if __name__== "__main__":
         print e
         sys.exit()
 
-    with open("190408 - unique user count per database.csv", "wb") as outf: 
-        writer = csv.writer(outf, delimiter=",")
+    # with open("190409 - unique user count per database.csv", "wb") as outf: 
+        # writer = csv.writer(outf, delimiter=",")
 
-        writer.writerow(["Database", "Count"])
+        # writer.writerow(["Database", "Count"])
 
-        counties = ','.join(['"{}"'.format(county) for county in relevant_counties])
+    counties = ','.join(['"{}"'.format(county) for county in relevant_counties])
 
-        query = """SELECT COUNT(DISTINCT user_id) FROM tweets WHERE fips IN ({})""".format(counties)
+    query = """SELECT DISTINCT user_id FROM tweets WHERE fips IN ({})""".format(counties)
 
-        rows = {}
+    unique_users = set()
 
-        for i, tweet_db_file in enumerate(tweet_db_files): 
-            print '{} out of {} databases'.format(i + 1, len(tweet_db_files))
+    for i, tweet_db_file in enumerate(tweet_db_files): 
+        print '{} out of {} databases'.format(i + 1, len(tweet_db_files))
 
-            current_db = Database(tweet_db_file)
+        current_db = Database(tweet_db_file)
 
-            result = current_db.select(query).fetchone()[0]
+        results = current_db.select(query)
 
-            rows[os.path.split(tweet_db_file)[-1]] = result
+        unique_users.update([result[0] for result in results])
 
-        writer.writerows([(db, count) for db, count in rows.items()])
+    # writer.writerows([(db, count) for db, count in rows.items()])
 
 
-        print "Finished!"
+    print "There are {} unique users.".format(len(unique_users))
+    print "Finished!"
